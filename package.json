@@ -14,7 +14,7 @@
         "bootstrap": "^4.0.0",
         "cross-env": "^5.1",
         "jquery": "^3.2",
-        "laravel-mix": "^4.0.7",
+        "laravel-mix": "^4.0.16",
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
         "resolve-url-loader": "^2.3.1",
@@ -25,6 +25,7 @@
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.2",
-        "admin-lte": "^3.1.0-rc"
+        "admin-lte": "^3.1.0-rc",
+        "vue-router": "^3.5.1"
     }
 }
