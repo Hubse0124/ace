@@ -221,6 +221,10 @@ export default {
     },
     created() {
         this.loadUsers();
+        Fire.$on('afterCreate', () => {
+            this.loadUsers();
+        }
+        );
         // setInterval(() => this.loadUsers(), 3000);
     }
 };
