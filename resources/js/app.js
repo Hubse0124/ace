@@ -57,7 +57,7 @@ let routes = [
     return moment(created).format('MMMM Do YYYY');
   });
 
-  window.Fire = new Vue();
+  window.reload = new Vue();
 
   Vue.filter('upText', function(text){
     return text.charAt(0).toUpperCase() + text.slice(1)
