@@ -290,9 +290,16 @@ export default {
     },
     created() {
         this.loadUsers();
+<<<<<<< HEAD
         reload.$on("afterCreate", () => {
             this.loadUsers();
         });
+=======
+        Fire.$on('afterCreate', () => {
+            this.loadUsers();
+        }
+        );
+>>>>>>> ee4545f2b523970c12ed88e16b9364b33bde6848
         // setInterval(() => this.loadUsers(), 3000);
     }
 }
